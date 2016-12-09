@@ -36,4 +36,4 @@ Javascript 30 days challenge
 When you are pushing on a key from your keyboard, a sound is being played.
 
 ![screenshot]
-(http://i.imgur.com/hdIVHXp.png)
+(http://i.imgur.com/yUZy5vC.png)
