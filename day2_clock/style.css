@@ -40,6 +40,7 @@ body {
     top:50%;
     transform-origin: 100%; /* moving origin to clock's center */
     transform: rotate(90deg); /* rotating hand to get it stated at 12 o'clock */
-    transition: all 0.5s; /* getting hand's transition when rotating */
+    transition: all 0.05s; /* getting hand's transition when rotating */
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1); /* putting style into movement */
 
 }
