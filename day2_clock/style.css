@@ -39,5 +39,6 @@ body {
     position: absolute;
     top:50%;
     transform-origin: 100%; /* moving origin to clock's center */
+    transform: rotate(90deg); /* rotating hand to get it stated at 12 o'clock */
 
 }
