@@ -3,7 +3,7 @@ Javascript 30 days challenge
 
 - [x] Day 1 : Creating a Drum Kit</a>
 - [x] Day 2 : Creating a Clock
-- [] Day 3 : CSS variables with JS
+- [X] Day 3 : CSS variables with JS
 - [] Day 4 : Array cardio 1
 - [] Day 5 : Flex Panel
 - [] Day 6 : Type ahead
@@ -43,3 +43,9 @@ A clock is ticking time
 
 ![screenshot]
 (http://i.imgur.com/2XCfltP.png)
+
+## Day 3 : Creating an image which could be modified with Javascript
+When you are moving / selecting value, the image is modified according to.
+
+![screenshot]
+(http://i.imgur.com/J4STKDr.png)
