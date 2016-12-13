@@ -1,9 +1,9 @@
 # javascript_30Days_Challenge
 Javascript 30 days challenge 
 
-- [x] Day 1 : Creating a Drum Kit
+- [x] Day 1 : Creating a Drum Kit</a>
 - [x] Day 2 : Creating a Clock
-- [] Day 3 : CSS variables
+- [] Day 3 : CSS variables with JS
 - [] Day 4 : Array cardio 1
 - [] Day 5 : Flex Panel
 - [] Day 6 : Type ahead
