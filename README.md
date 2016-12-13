@@ -42,7 +42,7 @@ When you are pushing on a key from your keyboard, a sound is being played.
 A clock is ticking time 
 
 ![screenshot]
-(http://i.imgur.com/2XCfltP.png)
+(http://i.imgur.com/WXux8T6.png)
 
 ## Day 3 : Creating an image which could be modified with Javascript
 When you are moving / selecting value, the image is modified according to.
