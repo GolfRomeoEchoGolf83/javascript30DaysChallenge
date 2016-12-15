@@ -34,8 +34,11 @@ body {
     font-size: 20px;
     background-size: cover;
     background-position: center;
-    border: 1px solid red; /* in order to see those flexboxes */
     flex: 1; /* get all boxes to the full width */
+    justify-content: center; /* centering content */
+    display: flex; /* getting the content displayed in flex */
+    flex-direction: column; /* getting it in column */
+
 }
 
 .panel1 {
@@ -58,10 +61,16 @@ body {
     background-image: url(https://source.unsplash.com/3MNzGlQM7qs/1500x1500);
 }
 
+/* flex items */
 .panel > * {
     margin: 0;
     width: 100%;
     transition: transform 0.5s;
+    border: 1px solid red; /* in order to see those flexboxes */
+    flex: 1 0 auto;
+    display: flex; /* getting item displayed in flex */
+    justify-content: center; /* content displayed in center */
+    align-items: center; /* all items centered */
 }
 
 .panel p {
