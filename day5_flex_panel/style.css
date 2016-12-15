@@ -107,6 +107,7 @@ body {
 
 .panel.open {
     font-size: 40px;
+    flex: 5; /* when said class is added to panel, it will takes 5times the extra room than class .panel with flex: 1; */
 }
 
 .cta {
