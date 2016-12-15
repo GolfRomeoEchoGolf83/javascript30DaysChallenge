@@ -5,7 +5,7 @@ Javascript 30 days challenge
 - [x] Day 2 : Creating a Clock
 - [x] Day 3 : CSS variables with JS
 - [x] Day 4 : Array cardio 1
-- [] Day 5 : Flex Panel
+- [x] Day 5 : Flex Panel
 - [] Day 6 : Type ahead
 - [] Day 7 : Array cardio 2
 - [] Day 8 : HTML5 canvas
