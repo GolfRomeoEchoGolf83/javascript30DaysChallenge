@@ -55,3 +55,9 @@ Playing with methods into browser's console
 
 ![screenshot]
 (http://i.imgur.com/STSIJvJ.png)
+
+## Day 5 : Creating a CSS panel
+Playing with div and CSS to get an interactive landing page
+
+![screenshot]
+(http://i.imgur.com/jtF0TKT.png)
