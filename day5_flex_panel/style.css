@@ -66,7 +66,6 @@ body {
     margin: 0;
     width: 100%;
     transition: transform 0.5s;
-    border: 1px solid red; /* in order to see those flexboxes */
     flex: 1 0 auto;
     display: flex; /* getting item displayed in flex */
     justify-content: center; /* content displayed in center */
