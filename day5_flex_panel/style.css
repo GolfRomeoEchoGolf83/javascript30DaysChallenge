@@ -73,6 +73,19 @@ body {
     align-items: center; /* all items centered */
 }
 
+/* */
+.panel > * :first-child {
+    transform: translateY(-100%);
+}
+
+/* getting all first child translating off screen */
+.panel > * :last-child {
+    transform: translateY(100%);
+}
+
+/* getting all last child translating off screen */
+
+
 .panel p {
     text-transform: uppercase;
     font-family: 'Amatic SC', cursive;
