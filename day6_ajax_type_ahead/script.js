@@ -9,3 +9,13 @@ const cities = [];
 fetch(endpoint)
     .then(blob => blob.json())
     .then(data => cities.push(...data));
+
+function findMatches(wordToMatch, cities) {
+    return cities.filter(place => {
+        // figuring out i the city matches what was searched
+        // regex to set up searchable words
+        const regex = new RegExp(wordToMatch, 'gi');
+        // is the word match city or state 
+        return place.city.match(regex) || place.state.match(regex);
+    });
+}
