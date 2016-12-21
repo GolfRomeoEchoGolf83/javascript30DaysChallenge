@@ -6,7 +6,7 @@ Javascript 30 days challenge
 - [x] Day 3 : CSS variables with JS
 - [x] Day 4 : Array cardio 1
 - [x] Day 5 : Flex Panel
-- [] Day 6 : Type ahead
+- [x] Day 6 : Ajax Type ahead
 - [] Day 7 : Array cardio 2
 - [] Day 8 : HTML5 canvas
 - [] Day 9 : Dev Tools
@@ -61,3 +61,9 @@ Playing with div and CSS to get an interactive landing page
 
 ![screenshot]
 (http://i.imgur.com/jtF0TKT.png)
+
+## Day 6 : Creating a cities' searchable library 
+Using a JSON and JS to create a page on which a word searched gets suggestions while typing it on a text box
+
+![screenshot]
+(http://i.imgur.com/hexWu9G.png)
