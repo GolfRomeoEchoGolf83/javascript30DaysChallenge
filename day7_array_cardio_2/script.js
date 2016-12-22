@@ -61,8 +61,17 @@ console.log({comment});
 const index = comments.findIndex(comment => comment.id === 823423);
 console.log({index});
 
-comments.splice(index, 1);
+// SOLUTION 1 : comments.splice(index, 1);
 
+// Redux method : creating a new array with spliced index
+const newComments = [
+    // spreading into an array
+    ... comments.slice(0, index),
+    ... comments.slice(index + 1)
+];
+
+console.table(comments);
+console.table(newComments);
 
 
 
