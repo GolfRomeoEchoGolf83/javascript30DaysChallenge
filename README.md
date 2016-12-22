@@ -67,3 +67,9 @@ Using a JSON and JS to create a page on which a word searched gets suggestions w
 
 ![screenshot]
 (http://i.imgur.com/hexWu9G.png)
+
+## Day 7 : Working with some(), every(), find(), findIndex() in array
+Playing with method's into browser's console (Redux method inside)
+
+![screenshot]
+(http://i.imgur.com/WNMMrUd.png)
