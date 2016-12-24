@@ -8,3 +8,7 @@ const context = canvas.getContext('2D'); // gets context of document
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
+// creating style of the draw
+context.strokeStyle = '#BADA55';
+context.lineJoin = 'round';
+context.lineCap = 'round';
