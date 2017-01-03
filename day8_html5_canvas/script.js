@@ -22,6 +22,12 @@ let lastY = 0;
 // function which will draw
 function draw(e) {
     if (!isDrawing) return; // stop function from running when mouse up
+    ctx.beginPath();
+    // start from
+    ctx.moveTo(lastX, lastY);
+    // go to
+    ctx.lineTo(e.offsetX, e.offsetY);
+    ctx.stroke();
 }
 
 // dealing with mouse action
