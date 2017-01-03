@@ -7,8 +7,8 @@ Javascript 30 days challenge
 - [x] Day 4 : Array cardio 1
 - [x] Day 5 : Flex Panel
 - [x] Day 6 : Ajax Type ahead
-- [] Day 7 : Array cardio 2
-- [] Day 8 : HTML5 canvas
+- [x] Day 7 : Array cardio 2
+- [x] Day 8 : HTML5 canvas
 - [] Day 9 : Dev Tools
 - [] Day 10 : Hold Shift and check checkboxes
 - [] Day 11 : Custom Video player
@@ -73,3 +73,8 @@ Playing with method's into browser's console (Redux method inside)
 
 ![screenshot]
 (http://i.imgur.com/WNMMrUd.png)
+
+## Day 8 : Creating a canvas which draws when mouse is clicked down
+
+![screenshot]
+(http://i.imgur.com/VDLL4xn.png)
