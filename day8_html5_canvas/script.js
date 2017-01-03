@@ -21,9 +21,18 @@ let isDrawing = false;
 let lastX = 0;
 let lastY = 0;
 
+// adding changing color using HSL
+let hue = 0;
+
+// line width with color
+let direction = true;
+
 // function which will draw
 function draw(e) {
     if (!isDrawing) return; // stop function from running when mouse up
+    console.log(e);
+    // playing with HSL with 100% S and 50% L
+    context.strokeStyle = `hsl(${hue},100%; 50%)`;
     context.beginPath();
     // start from
     context.moveTo(lastX, lastY);
@@ -36,6 +45,26 @@ function draw(e) {
 canvas.addEventListener('mousedown', (e) => {
     isDrawing = true;
     [lastX, lastY] = [e.offsetX, e.offsetY];
+
+    // getting incrementation into coloring
+    hue++;
+
+    // resetting hue
+    if (hue >= 360) {
+        hue = 0;
+    }
+
+    // dealing with line width when it is linked with hue incrementation
+    if (context.lineWidth >= 100 || context.lineWidth <= 1) {
+        direction = !direction;
+    }
+
+    if (direction) {
+        context.lineWidth++;
+    } else {
+        context.lineWidth--;
+
+    }
 });
 
 canvas.addEventListener('mousemove', draw);
