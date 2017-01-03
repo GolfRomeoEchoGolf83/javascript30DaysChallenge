@@ -12,6 +12,8 @@ canvas.height = window.innerHeight;
 context.strokeStyle = '#BADA55';
 context.lineJoin = 'round';
 context.lineCap = 'round';
+context.lineWidth = 100;
+
 
 // flag when click down drawning, click up not drawing
 let isDrawing = false;
@@ -22,12 +24,12 @@ let lastY = 0;
 // function which will draw
 function draw(e) {
     if (!isDrawing) return; // stop function from running when mouse up
-    ctx.beginPath();
+    context.beginPath();
     // start from
-    ctx.moveTo(lastX, lastY);
+    context.moveTo(lastX, lastY);
     // go to
-    ctx.lineTo(e.offsetX, e.offsetY);
-    ctx.stroke();
+    context.lineTo(e.offsetX, e.offsetY);
+    context.stroke();
 }
 
 // dealing with mouse action
