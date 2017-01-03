@@ -12,3 +12,20 @@ canvas.height = window.innerHeight;
 context.strokeStyle = '#BADA55';
 context.lineJoin = 'round';
 context.lineCap = 'round';
+
+// flag when click down drawning, click up not drawing
+let isDrawing = false;
+
+let lastX = 0;
+let lastY = 0;
+
+// function which will draw
+function draw(e) {
+    if (!isDrawing) return; // stop function from running when mouse up
+}
+
+// dealing with mouse action
+canvas.addEventListener('mousemove', draw);
+canvas.addEventListener('mousedown', () => isDrawing = true);
+canvas.addEventListener('mouseup', () => isDrawing = false);
+canvas.addEventListener('mouseout', () => isDrawing = false);
