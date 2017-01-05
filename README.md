@@ -9,7 +9,7 @@ Javascript 30 days challenge
 - [x] Day 6 : Ajax Type ahead
 - [x] Day 7 : Array cardio 2
 - [x] Day 8 : HTML5 canvas
-- [] Day 9 : Dev Tools
+- [x] Day 9 : Dev Tools
 - [] Day 10 : Hold Shift and check checkboxes
 - [] Day 11 : Custom Video player
 - [] Day 12 : Key sequence detection
@@ -78,3 +78,7 @@ Playing with method's into browser's console (Redux method inside)
 
 ![screenshot]
 (http://i.imgur.com/VDLL4xn.png)
+
+## Day 9 : Playing with console tricks
+![screenshot]
+(http://i.imgur.com/AvaKGj2.png)
