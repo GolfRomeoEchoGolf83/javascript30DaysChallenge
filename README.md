@@ -10,7 +10,7 @@ Javascript 30 days challenge
 - [x] Day 7 : Array cardio 2
 - [x] Day 8 : HTML5 canvas
 - [x] Day 9 : Dev Tools
-- [] Day 10 : Hold Shift and check checkboxes
+- [x] Day 10 : Hold Shift and check checkboxes
 - [] Day 11 : Custom Video player
 - [] Day 12 : Key sequence detection
 - [] Day 13 : Slide in on scroll
@@ -82,3 +82,7 @@ Playing with method's into browser's console (Redux method inside)
 ## Day 9 : Playing with console tricks
 ![screenshot]
 (http://i.imgur.com/AvaKGj2.png)
+
+## Day 10 : Playing with checkboxes
+![screenshot]
+(http://imgur.com/4PQrwTt)
