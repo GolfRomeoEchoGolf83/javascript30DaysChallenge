@@ -85,4 +85,4 @@ Playing with method's into browser's console (Redux method inside)
 
 ## Day 10 : Playing with checkboxes
 ![screenshot]
-(http://imgur.com/4PQrwTt)
+(http://i.imgur.com/4PQrwTt.png)
