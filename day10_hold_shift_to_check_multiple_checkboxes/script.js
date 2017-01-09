@@ -4,22 +4,25 @@
 const checkboxes = document.querySelectorAll('.inbox input[type="checkbox"]');
 let lastChecked;
 
-function handlecheck(e) {
+
+function handleCheck(e) {
+    let inBetween = false;
+
     // check if shift key down
-    // and check if they are checked
-    let inbetween = false;
-
+    // and check if boxes are checked
     if (e.shiftKey && this.checked) {
-// loop through every checkbox
-    }
-    checkboxes.forEach(checkbox => {
-        if (checkbox === this || checkbox === lastChecked) {
-            inbetween = !inbetween;
-        }
+        // loop through every checkbox
+        checkboxes.forEach(checkbox => {
+            if (checkbox === this || checkbox === lastChecked) {
+                inBetween = !inBetween;
+            }
 
-    })
-    lastChecked = this
+            if (inBetween) {
+                checkbox.checked = true;
+            }
+        });
+    }
+    lastChecked = this;
 }
 
-
-checkboxes.forEach(checkbox => checkbox.addEventListener('click', handlecheck));
+checkboxes.forEach(checkbox => checkbox.addEventListener('click', handleCheck));
