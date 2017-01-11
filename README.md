@@ -11,7 +11,7 @@ Javascript 30 days challenge
 - [x] Day 8 : HTML5 canvas
 - [x] Day 9 : Dev Tools
 - [x] Day 10 : Hold Shift and check checkboxes
-- [] Day 11 : Custom Video player
+- [x] Day 11 : Custom Video player
 - [] Day 12 : Key sequence detection
 - [] Day 13 : Slide in on scroll
 - [] Day 14 : JS references VS Copying
@@ -86,3 +86,7 @@ Playing with method's into browser's console (Redux method inside)
 ## Day 10 : Playing with checkboxes
 ![screenshot]
 (http://i.imgur.com/4PQrwTt.png)
+
+## Day 11 : Creating an HTML5 video player
+![screenshot]
+(http://i.imgur.com/6Rlzc7Y.png)
