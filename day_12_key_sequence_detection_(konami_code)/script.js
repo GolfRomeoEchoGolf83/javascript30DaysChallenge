@@ -18,6 +18,5 @@ window.addEventListener('keydown', (e) => {
         console.log('YOU FOUND THE CODE !');
         cornify_add();
     }
-    ;
     console.log(pressed);
 });
