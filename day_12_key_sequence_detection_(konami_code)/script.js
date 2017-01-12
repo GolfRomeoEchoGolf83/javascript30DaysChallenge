@@ -11,4 +11,6 @@ const secretCode = 'greg';
 
 window.addEventListener('keydown', (e) => {
     console.log(e.key);
+    pressed.push(e.key);
+    console.log(pressed);
 });
