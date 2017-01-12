@@ -34,63 +34,59 @@ Javascript 30 days challenge
 
 ## Day 1 : Creating a drum kit on a static web page
 When you are pushing on a key from your keyboard, a sound is being played.
-
 ![screenshot]
 (http://i.imgur.com/yUZy5vC.png)
 
 ## Day 2 : Creating a clock using CSS and JS
 A clock is ticking time 
-
 ![screenshot]
 (http://i.imgur.com/WXux8T6.png)
 
 ## Day 3 : Creating an image which could be modified with Javascript
 When you are moving / selecting value, the image is modified according to.
-
 ![screenshot]
 (http://i.imgur.com/J4STKDr.png)
 
 ## Day 4 : Working with filter(), map(), sort() as well as reduce() methods
 Playing with methods into browser's console
-
 ![screenshot]
 (http://i.imgur.com/STSIJvJ.png)
 
 ## Day 5 : Creating a CSS panel
 Playing with div and CSS to get an interactive landing page
-
 ![screenshot]
 (http://i.imgur.com/jtF0TKT.png)
 
 ## Day 6 : Creating a cities' searchable library 
 Using a JSON and JS to create a page on which a word searched gets suggestions while typing it on a text box
-
 ![screenshot]
 (http://i.imgur.com/hexWu9G.png)
 
 ## Day 7 : Working with some(), every(), find(), findIndex() in array
 Playing with method's into browser's console (Redux method inside)
-
 ![screenshot]
 (http://i.imgur.com/WNMMrUd.png)
 
 ## Day 8 : Creating a canvas which draws when mouse is clicked down
-
 ![screenshot]
 (http://i.imgur.com/VDLL4xn.png)
 
 ## Day 9 : Playing with console tricks
+Dealing with console tips
 ![screenshot]
 (http://i.imgur.com/AvaKGj2.png)
 
 ## Day 10 : Playing with checkboxes
+Creating a list which is clickable
 ![screenshot]
 (http://i.imgur.com/4PQrwTt.png)
 
 ## Day 11 : Creating an HTML5 video player
+Dealing with all video players options
 ![screenshot]
 (http://i.imgur.com/6Rlzc7Y.png)
 
 ## Day 12 : Creating a KONAMI CODE like
+When a code is found "greg" a unicorn appears on screen
 ![screenshot]
 (http://i.imgur.com/LrR0sGy.png)
