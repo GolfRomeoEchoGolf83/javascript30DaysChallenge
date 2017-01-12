@@ -13,6 +13,11 @@ window.addEventListener('keydown', (e) => {
     console.log(e.key);
     pressed.push(e.key);
     /* keep length array equal to secretCode length storing key pushed */
-    pressed.splice(-secretCode.length - 1, pressed.length - secretCode.length)
+    pressed.splice(-secretCode.length - 1, pressed.length - secretCode.length);
+    if (pressed.join('').includes(secretCode)) {
+        console.log('YOU FOUND THE CODE !');
+        cornify_add();
+    }
+    ;
     console.log(pressed);
 });
