@@ -12,7 +12,7 @@ Javascript 30 days challenge
 - [x] Day 9 : Dev Tools
 - [x] Day 10 : Hold Shift and check checkboxes
 - [x] Day 11 : Custom Video player
-- [] Day 12 : Key sequence detection
+- [x] Day 12 : Key sequence detection
 - [] Day 13 : Slide in on scroll
 - [] Day 14 : JS references VS Copying
 - [] Day 15 : LocalStorage
@@ -90,3 +90,7 @@ Playing with method's into browser's console (Redux method inside)
 ## Day 11 : Creating an HTML5 video player
 ![screenshot]
 (http://i.imgur.com/6Rlzc7Y.png)
+
+## Day 12 : Creating a KONAMI CODE like
+![screenshot]
+(http://i.imgur.com/LrR0sGy.png)
