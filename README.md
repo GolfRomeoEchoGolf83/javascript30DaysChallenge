@@ -13,7 +13,7 @@ Javascript 30 days challenge
 - [x] Day 10 : Hold Shift and check checkboxes
 - [x] Day 11 : Custom Video player
 - [x] Day 12 : Key sequence detection
-- [] Day 13 : Slide in on scroll
+- [x] Day 13 : Slide in on scroll
 - [] Day 14 : JS references VS Copying
 - [] Day 15 : LocalStorage
 - [] Day 16 : Mouse Move Shadow
@@ -90,3 +90,8 @@ Dealing with all video players options
 When a code is found "greg" a unicorn appears on screen
 ![screenshot]
 (http://i.imgur.com/LrR0sGy.png)
+
+## Day 13 : Make appear / desappear images when scrolling 
+When scrolling, images appear / desappear depending on its window's position
+![screenshot]
+(http://i.imgur.com/5oUpSd1.png)
