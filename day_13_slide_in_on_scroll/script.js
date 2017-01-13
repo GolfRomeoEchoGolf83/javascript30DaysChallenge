@@ -19,9 +19,11 @@ function debounce(func, wait = 20, immediate = true) {
 }
 
 function checkSlide(e) {
-    console.log(window.scrollY);
+    // half way of the image
     sliderImages.forEach(slideImage => {
         const slideInAt = (window.scrollY + window.innerHeight) - slideImage.height / 2;
+        // bottom of the image
+        const imageBottom = slideImage.offsetTop + slideImage.height
     });
 }
 
