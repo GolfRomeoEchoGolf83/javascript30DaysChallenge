@@ -27,6 +27,12 @@ function checkSlide(e) {
         const isHalfShown = slideInAt > sliderImages.offsetTop;
         const isNotScrolledPast = window.scrollY < imageBottom;
 
+        // adding or removing class active to make them appear of desappear
+        if (isHalfShown && isNotScrolledPast) {
+            sliderImage.classList.add('active');
+        } else {
+            sliderImage.classList.remove('active');
+        }
     });
 }
 
