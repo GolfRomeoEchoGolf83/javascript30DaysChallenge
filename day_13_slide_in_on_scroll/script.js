@@ -4,7 +4,7 @@
 const sliderImages = document.querySelectorAll('.slide-in');
 
 function checkSlide(e) {
-    console.log(e);
+    console.count(e);
 }
 
 window.addEventListener('scroll', checkSlide);
