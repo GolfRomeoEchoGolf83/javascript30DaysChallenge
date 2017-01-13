@@ -21,6 +21,7 @@ function debounce(func, wait = 20, immediate = true) {
 function checkSlide(e) {
     console.log(window.scrollY);
     sliderImages.forEach(slideImage => {
+        const slideInAt = (window.scrollY + window.innerHeight) - slideImage.height / 2;
     });
 }
 
