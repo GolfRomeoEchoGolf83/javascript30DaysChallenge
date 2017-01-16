@@ -14,7 +14,7 @@ Javascript 30 days challenge
 - [x] Day 11 : Custom Video player
 - [x] Day 12 : Key sequence detection
 - [x] Day 13 : Slide in on scroll
-- [] Day 14 : JS references VS Copying
+- [x] Day 14 : JS references VS Copying
 - [] Day 15 : LocalStorage
 - [] Day 16 : Mouse Move Shadow
 - [] Day 17 : Sort without Articles  
@@ -95,3 +95,8 @@ When a code is found "greg" a unicorn appears on screen
 When scrolling, images appear / desappear depending on its window's position
 ![screenshot]
 (http://i.imgur.com/5oUpSd1.png)
+
+## Day 14 : Dealing with reference vs copy in JS
+Working with several ways to copy an array / object when we don't want a reference on it
+![screenshot]
+(http://i.imgur.com/m1KEGeL.png)
