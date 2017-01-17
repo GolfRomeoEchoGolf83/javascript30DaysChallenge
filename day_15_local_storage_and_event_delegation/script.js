@@ -12,6 +12,8 @@ function addItem(e) {
         text: text,
         done: false
     };
-    console.log(item);
+
+    items.push(item);
+    console.log(items);
 }
 addItems.addEventListener('submit', addItem);
