@@ -10,6 +10,19 @@ html {
     font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
 
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+svg {
+    fill: white;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 50%;
+    width: 200px;
+    margin-bottom: 50px;
+}
+
 .wrapper {
     padding: 20px;
     max-width: 350px;
@@ -44,6 +57,15 @@ h2 {
 
 .plates input {
     display: none;
+}
+
+.plates input + label:before {
+    content: '⬜️';
+    margin-right: 10px;
+}
+
+.plates input:checked + label:before {
+    content: '🌮';
 }
 
 .add-items {
