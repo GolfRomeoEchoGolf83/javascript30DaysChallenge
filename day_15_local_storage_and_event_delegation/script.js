@@ -4,3 +4,5 @@
 const addItems = document.querySelector('.add-items');
 const itemList = document.querySelector('.plates');
 const items = [];
+
+addItems.addEventListener('submit', addItem);
