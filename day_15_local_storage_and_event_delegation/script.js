@@ -12,7 +12,7 @@ function addItem(e) {
         text: text,
         done: false
     };
-
+    this.reset();
     items.push(item);
     console.log(items);
 }
