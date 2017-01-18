@@ -20,8 +20,8 @@ function shadow(e) {
     }
 
 
-    const xWalk = (x / width * walk) - (walk / 2);
-    const yWalk = (x / height * walk) - (walk / 2);
+    const xWalk = Math.round((x / width * walk) - (walk / 2));
+    const yWalk = Math.round((x / height * walk) - (walk / 2));
     console.log(xWalk, yWalk);
 
 }
