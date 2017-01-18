@@ -4,6 +4,7 @@
 
 const hero = document.querySelector('.hero');
 const text = hero.querySelector('h1');
+const walk = 100; // 100 px
 
 function shadow(e) {
     // console.log(e);
@@ -12,13 +13,16 @@ function shadow(e) {
     // const height = hero.offsetHeight;
     const {offsetWidth: width, offsetHeight: height} = hero;
     let {offsetX: x, offsetY: y} = e;
-    // console.log(x, y);
 
     if (this !== e.target) {
         x = x + e.target.offsetLeft;
         y = y + e.target.offsetTop;
     }
-    console.log(this, e.target);
+
+
+    const xWalk = (x / width * walk) - (walk / 2);
+    const yWalk = (x / height * walk) - (walk / 2);
+    console.log(xWalk, yWalk);
 
 }
 
