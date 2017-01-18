@@ -26,8 +26,12 @@ function shadow(e) {
     // console.log(xWalk, yWalk);
 
     // setting text shadow
-    text.style.textShadow = `${xWalk}px ${yWalk}px 0 red`;
-
+    text.style.textShadow = `
+${xWalk}px ${yWalk}px 0 red,
+${xWalk * -1}px ${yWalk}px 0 rgba(0,255,0,0.7),
+${xWalk}px ${yWalk * -1}px 0 rgba(0,255,255,0.7),
+${xWalk * -1}px ${yWalk}px 0 rgba(0,0,255,0.7)
+`;
 }
 
 hero.addEventListener('mousemove', shadow);
