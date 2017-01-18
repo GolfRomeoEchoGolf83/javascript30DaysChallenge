@@ -105,3 +105,8 @@ Working with several ways to copy an array / object when we don't want a referen
 An empty array is created. When adding an item, it is added to the array which persist even after browser refresh. Items can be checked / unchecked.
 ![screenshot]
 (http://i.imgur.com/CVRO5aD.png)
+
+## Day 16 : Creating CSS text shadow mouse move effet
+When moving mouse cursor, text shadow is dynamically changing
+![screenshot]
+()
