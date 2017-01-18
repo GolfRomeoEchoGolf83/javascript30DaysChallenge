@@ -100,3 +100,8 @@ When scrolling, images appear / desappear depending on its window's position
 Working with several ways to copy an array / object when we don't want a reference on it
 ![screenshot]
 (http://i.imgur.com/m1KEGeL.png)
+
+## Day 15 : Creating a persisting list of items which can be checked / unchecked
+An empty array is created. When adding an item, it is added to the array which persist even after browser refresh. Items can be checked / unchecked.
+![screenshot]
+(http://i.imgur.com/CVRO5aD.png)
