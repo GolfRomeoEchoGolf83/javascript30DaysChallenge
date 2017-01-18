@@ -109,4 +109,4 @@ An empty array is created. When adding an item, it is added to the array which p
 ## Day 16 : Creating CSS text shadow mouse move effet
 When moving mouse cursor, text shadow is dynamically changing
 ![screenshot]
-()
+(http://i.imgur.com/1Hz3IWb.png)
