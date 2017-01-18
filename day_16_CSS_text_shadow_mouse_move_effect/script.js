@@ -14,15 +14,19 @@ function shadow(e) {
     const {offsetWidth: width, offsetHeight: height} = hero;
     let {offsetX: x, offsetY: y} = e;
 
+    // setting x and y cursor position regarding target
     if (this !== e.target) {
         x = x + e.target.offsetLeft;
         y = y + e.target.offsetTop;
     }
 
-
+    // setting x and y
     const xWalk = Math.round((x / width * walk) - (walk / 2));
-    const yWalk = Math.round((x / height * walk) - (walk / 2));
-    console.log(xWalk, yWalk);
+    const yWalk = Math.round((y / height * walk) - (walk / 2));
+    // console.log(xWalk, yWalk);
+
+    // setting text shadow
+    text.style.textShadow = `${xWalk}px ${yWalk}px 0 red`;
 
 }
 
