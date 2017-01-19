@@ -110,3 +110,8 @@ An empty array is created. When adding an item, it is added to the array which p
 When moving mouse cursor, text shadow is dynamically changing
 ![screenshot]
 (http://i.imgur.com/1Hz3IWb.png)
+
+## Day 17 : Sorting names without articles 
+Looking to sort array's elements without articles (a, an, the) to get sorting relevant.
+![screenshot]
+(http://i.imgur.com/7XrQOxi.png)
