@@ -11,4 +11,16 @@ const seconds = timeNodes
         return (mins * 60) + secs;
         console.log(mins, secs);
     })
+    .reduce((total, vidSeconds) => total + vidSeconds);
 
+let secondsLeft = seconds;
+// how many hours
+const hours = Math.floor(secondsLeft / 3600);
+// how many seconds left
+secondsLeft = secondsLeft % 3600;
+
+// idem with mins
+const mins = Math.floor(secondsLeft / 60);
+console.log(secondsLeft);
+
+console.log(hours, mins, secondsLeft);
