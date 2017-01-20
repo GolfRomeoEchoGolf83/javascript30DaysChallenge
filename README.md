@@ -115,3 +115,7 @@ When moving mouse cursor, text shadow is dynamically changing
 Looking to sort array's elements without articles (a, an, the) to get sorting relevant.
 ![screenshot]
 (http://i.imgur.com/7XrQOxi.png)
+
+## Day 18 : Array into time
+![screenshot]
+(http://i.imgur.com/l9x9tkH.png)
