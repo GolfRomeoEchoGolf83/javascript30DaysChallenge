@@ -3,5 +3,6 @@
  */
 const timeNodes = Array.from(document.querySelectorAll('[date-time]'));
 
-
+const seconds = timeNodes
+    .map(node => node.dataset.time)
 
