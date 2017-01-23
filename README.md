@@ -119,3 +119,7 @@ Looking to sort array's elements without articles (a, an, the) to get sorting re
 ## Day 18 : Array into time
 ![screenshot]
 (http://i.imgur.com/l9x9tkH.png)
+
+## Day 19 : Creating a Photo Booth with webcam
+![screenshot]
+()
