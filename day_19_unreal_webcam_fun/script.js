@@ -37,10 +37,16 @@ function paintToCanvas() {
 
 // taking photo and playing sound accordingly
 function takePhoto() {
+    // play sound
     snap.currentTime = 0;
     snap.play();
+
+    // take data from canva
+    const data = canvas.toDataURL('image/jpeg');
+    console.log(data);
 }
 
 getVideo();
 
+// webcam video is displayed into canvas when canplay event is send by getVideo()
 video.addEventListener('canplay', paintToCanvas);
