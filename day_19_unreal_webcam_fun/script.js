@@ -9,6 +9,7 @@ const strip = document.querySelector('.strip');
 const snap = document.querySelector('.snap');
 
 
+// get video from webcam
 function getVideo() {
     navigator.mediaDevices.getUserMedia({video: true, audio: false})
         .then(localMediaStream => {
@@ -21,6 +22,7 @@ function getVideo() {
         })
 }
 
+// painting on canvas with webcam
 function paintToCanvas() {
     const width = video.videoWidth;
     const height = video.videoHeight;
@@ -33,9 +35,12 @@ function paintToCanvas() {
     }, 16);
 }
 
+// taking photo and playing sound accordingly
 function takePhoto() {
     snap.currentTime = 0;
     snap.play();
 }
 
 getVideo();
+
+video.addEventListener('canplay', paintToCanvas);
