@@ -15,11 +15,11 @@ Javascript 30 days challenge
 - [x] Day 12 : Key sequence detection
 - [x] Day 13 : Slide in on scroll
 - [x] Day 14 : JS references VS Copying
-- [] Day 15 : LocalStorage
-- [] Day 16 : Mouse Move Shadow
-- [] Day 17 : Sort without Articles  
-- [] Day 18 : Adding up times with Reduce
-- [] Day 19 : Webcam fun ;)
+- [x] Day 15 : LocalStorage
+- [x] Day 16 : Mouse Move Shadow
+- [x] Day 17 : Sort without Articles  
+- [x] Day 18 : Adding up times with Reduce
+- [x] Day 19 : Webcam fun ;)
 - [] Day 20 : Speech detection
 - [] Day 21 : Geolocalisation
 - [] Day 22 : Follow along link highlighter
@@ -122,4 +122,4 @@ Looking to sort array's elements without articles (a, an, the) to get sorting re
 
 ## Day 19 : Creating a Photo Booth with webcam
 ![screenshot]
-()
+(http://i.imgur.com/E0a4to3.png)
