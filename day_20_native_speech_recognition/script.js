@@ -14,8 +14,14 @@ const words = document.querySelector('.words');
 
 words.appendChild(p);
 
+// getting speech into large array
 recognition.addEventListener('result', e => {
-    console.log(e);
+    const transcript = Array.from(e.results)
+        .map(result => result[0])
+        .map(result => result.transcript)
+        .join('')
 });
 
+// make a pause when stop talking
+recognition.addEventListener('end', recognition.start);
 recognition.start();
