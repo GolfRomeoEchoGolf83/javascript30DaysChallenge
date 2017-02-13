@@ -3,7 +3,9 @@ html {
 }
 
 body {
-    background: #ffc600;
+    background: url("pexels-photo-270288.jpeg");
+    background-size: 100%;
+    margin: 0;
     font-family: "Helvetica Neue";
     font-weight: 200;
     font-size: 20px;
