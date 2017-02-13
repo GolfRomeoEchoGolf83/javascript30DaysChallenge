@@ -123,3 +123,9 @@ Looking to sort array's elements without articles (a, an, the) to get sorting re
 ## Day 19 : Creating a Photo Booth with webcam
 ![screenshot]
 (http://i.imgur.com/E0a4to3.png)
+
+## Day 20 : Creating a voice speech recognition
+Webkit coded in french. 
+When speaking the browser type the words down. Each pause in the speech is represented by a new paragraph
+![screenshot]
+(http://i.imgur.com/kF2YRPl.png)
