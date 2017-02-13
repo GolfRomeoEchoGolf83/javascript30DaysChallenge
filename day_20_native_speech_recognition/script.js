@@ -34,7 +34,7 @@ recognition.addEventListener('result', e => {
         console.log('a specific action');
     }
     */
-
+    console.log(transcript);
 });
 
 // make a pause when stop talking
