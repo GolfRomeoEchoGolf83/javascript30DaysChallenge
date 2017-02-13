@@ -20,7 +20,7 @@ Javascript 30 days challenge
 - [x] Day 17 : Sort without Articles  
 - [x] Day 18 : Adding up times with Reduce
 - [x] Day 19 : Webcam fun ;)
-- [] Day 20 : Speech detection
+- [x] Day 20 : Speech detection
 - [] Day 21 : Geolocalisation
 - [] Day 22 : Follow along link highlighter
 - [] Day 23 : Speech synthesis
