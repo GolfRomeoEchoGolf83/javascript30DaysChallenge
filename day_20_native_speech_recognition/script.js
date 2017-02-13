@@ -20,6 +20,15 @@ recognition.addEventListener('result', e => {
         .map(result => result[0])
         .map(result => result.transcript)
         .join('')
+
+    // speech is written down in the DOM
+    p.textContent = transcript;
+
+    if(e.results[0].isFinal) {
+        p = document.createElement('p');
+        words.appendChild(p);
+    }
+
 });
 
 // make a pause when stop talking
