@@ -29,6 +29,12 @@ recognition.addEventListener('result', e => {
         words.appendChild(p);
     }
 
+    /* hands-off application to develop a Siri like
+    if (transcript.includes('a specific word')) {
+        console.log('a specific action');
+    }
+    */
+
 });
 
 // make a pause when stop talking
