@@ -18,5 +18,8 @@ navigator.geolocation.watchPosition((data) => {
 
     // rotate compass according to heading datas
     arrow.style.transform = `rotate(${data.coords.heading}deg)`;
+}, (err) => {
+    console.err(err);
+    alert('You should allow it to make it works');
 });
 
