@@ -21,7 +21,7 @@ Javascript 30 days challenge
 - [x] Day 18 : Adding up times with Reduce
 - [x] Day 19 : Webcam fun ;)
 - [x] Day 20 : Speech detection
-- [] Day 21 : Geolocalisation
+- [x] Day 21 : Geolocation
 - [] Day 22 : Follow along link highlighter
 - [] Day 23 : Speech synthesis
 - [] Day 24 : Sticky nav
