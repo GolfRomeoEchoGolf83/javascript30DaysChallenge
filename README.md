@@ -129,3 +129,8 @@ Webkit coded in french.
 When speaking the browser type the words down. Each pause in the speech is represented by a new paragraph
 ![screenshot]
 (http://i.imgur.com/kF2YRPl.png)
+
+## Day 21 : Creating a compass with accelerometer
+If user allow geolocation, fetch datas to get speed as well as direction
+![screenshot]
+(http://i.imgur.com/EL9RUce.png)
