@@ -8,5 +8,5 @@ const speed = document.querySelector('.speed-value');
 // get speed data from device simulator using XCode
 navigator.geolocation.watchPosition((data) => {
     console.log(data);
-    speed.textContent = data.coords.speed;
+    speed.textContent = Math.round(data.coords.speed);
 });
