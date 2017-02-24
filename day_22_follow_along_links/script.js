@@ -11,7 +11,10 @@ document.body.appendChild(highlight);
 
 // highlighting links
 function highlightLinks() {
-    console.log(this);
+    // where on the page trigger is happening
+    const linkCoords = this.getBoundingClientRect();
+    console.log(linkCoords);
 }
 
 triggers.forEach(a => a.addEventListener('mouseenter', highlightLinks));
+
