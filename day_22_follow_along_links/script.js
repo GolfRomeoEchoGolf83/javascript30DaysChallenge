@@ -14,6 +14,8 @@ function highlightLinks() {
     // where on the page trigger is happening
     const linkCoords = this.getBoundingClientRect();
     console.log(linkCoords);
+    highlight.style.width = `${linkCoords.width}px`;
+    highlight.style.height = `${linkCoords.height}px`;
 }
 
 triggers.forEach(a => a.addEventListener('mouseenter', highlightLinks));
