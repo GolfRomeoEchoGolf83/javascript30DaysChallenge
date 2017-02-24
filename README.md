@@ -22,7 +22,7 @@ Javascript 30 days challenge
 - [x] Day 19 : Webcam fun ;)
 - [x] Day 20 : Speech detection
 - [x] Day 21 : Geolocation
-- [] Day 22 : Follow along link highlighter
+- [x] Day 22 : Follow along link highlighter
 - [] Day 23 : Speech synthesis
 - [] Day 24 : Sticky nav
 - [] Day 25 : Event capture, propagation, bubbling and once
@@ -135,3 +135,8 @@ If user allow geolocation, fetch datas to get speed as well as direction
 
 ![screenshot]
 (http://i.imgur.com/EL9RUce.png)
+
+## Day 22 : Creating a follow along highlighter 
+Highlight links when mouse overring 
+![screenshot]
+(http://i.imgur.com/93QystR.png)
