@@ -24,10 +24,19 @@ function setVoice() {
 }
 
 // restart the page when new voice is selected
-function toggle() {
+function toggle(startOver = true) {
     speechSynthesis.cancel();
-    speechSynthesis.speak(msg);
+    if (startOver) {
+        speechSynthesis.speak(msg);
+    }
+}
+
+function setOption() {
+    console.log(this.name, this.value);
+    msg[this.name] = this.value;
+    toggle();
 }
 
 speechSynthesis.addEventListener('voiceschanged', populatevoices);
 voicesDropdown.addEventListener('change', setVoice);
+options.forEach(option => option.addEventListener('change', setOption));
