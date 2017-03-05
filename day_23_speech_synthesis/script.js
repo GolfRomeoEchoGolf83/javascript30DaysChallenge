@@ -8,6 +8,7 @@ const stopButton = document.querySelector('#stop');
 
 msg.text = document.querySelector('[name="text"]').value;
 
+// populate voices 
 function populatevoices() {
     voices = this.getVoices();
     voicesDropdown.innerHTML = voices
@@ -16,8 +17,16 @@ function populatevoices() {
 
 }
 
+// set the voice 
 function setVoice() {
     msg.voice = voices.find(voice => voice.name === this.value);
+    toggle();
+}
+
+// restart the page when new voice is selected
+function toggle() {
+    speechSynthesis.cancel();
+    speechSynthesis.speak(msg);
 }
 
 speechSynthesis.addEventListener('voiceschanged', populatevoices);
