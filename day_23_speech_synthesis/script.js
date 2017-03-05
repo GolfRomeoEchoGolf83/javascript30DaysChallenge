@@ -40,3 +40,5 @@ function setOption() {
 speechSynthesis.addEventListener('voiceschanged', populatevoices);
 voicesDropdown.addEventListener('change', setVoice);
 options.forEach(option => option.addEventListener('change', setOption));
+speakButton.addEventListener('click', toggle);
+stopButton.addEventListener('click', () => toggle(false));
