@@ -23,8 +23,8 @@ Javascript 30 days challenge
 - [x] Day 20 : Speech detection
 - [x] Day 21 : Geolocation
 - [x] Day 22 : Follow along link highlighter
-- [] Day 23 : Speech synthesis
-- [] Day 24 : Sticky nav
+- [x] Day 23 : Speech synthesis
+- [x] Day 24 : Sticky nav
 - [] Day 25 : Event capture, propagation, bubbling and once
 - [] Day 26 : Stripe follow along nav
 - [] Day 27 : Click and Drag
@@ -140,3 +140,11 @@ If user allow geolocation, fetch datas to get speed as well as direction
 Highlight links when mouse overring 
 ![screenshot]
 (http://i.imgur.com/93QystR.png)
+
+## Day 23 : Creating a speech analysis
+![screenshot]
+()
+
+## Day 24 : Creating a sticky navbar when window reach a certain point of the window
+![screenshot]
+(http://i.imgur.com/6ROTdbR.png)
